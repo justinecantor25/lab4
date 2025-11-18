@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body {
+    background-color: #f7f7f7;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+#site-header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vh 5vw;
+}
+#site-header img {
+    width: 15vw;     
+    max-width: 120px;
+    height: auto;
+}
+#main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 3vw;
+}
+#main-nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.3vw;
+}
+#main-nav ul li a:hover {
+    color: #de9400;
+}
+#top-image {            /*can't figure how to shrink the image when I shrikn the screen*/
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+#main-content {
+    width: 90%;
+    max-width: 800px;
+    margin: 30px auto;
+}
+#main-content h1 {
+    font-size: 5vw;       
+    margin-bottom: 3vh;
+    font-weight: 500;
+}
+#main-content h2 {
+    font-size: 3vw;
+    margin: 4vh 0;
+    font-weight: 500;
+}
+#main-content h3 {
+    font-size: 2vw;
+    margin: 3vh 0 1vh 0;
+    font-weight: 500;
+}
+#main-content p {
+    font-size: 1.6vw;
+    max-width: 100%;
+    margin-bottom: 3vh;
+    font-weight: 300;
+}
+#main-content ul,
+#main-content ol {
+    margin-left: 5vw;
+    margin-bottom: 3vh;
+    font-size: 1.3vw;
+    font-weight: 300;
+}
+#feature-image {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    display: block;
+}
+#article {
+    font-size: 1rem;
+}
+#site-footer {
+    background-color: #75b6d4;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 40px;
+}
+@media (max-width: 600px) {
+    #site-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+    #main-nav ul {
+        gap: 15px;
+    }
+    #main-content {
+        padding: 10px 0;
+    }
+    #main-content h1 {
+        font-size: 2rem;
+    }
+    #main-content p {
+        font-size: 0.95rem;
+    }
+}

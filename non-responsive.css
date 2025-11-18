@@ -1,0 +1,88 @@
+body {
+    background-color: #f7f7f7;
+    margin: 0;
+    font-family: Helvetica; 
+}
+#site-header {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#site-header img {
+    width: 120px;        
+    height: auto;
+    display: block;
+}
+#main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 25px;
+}
+#main-nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #000000;
+}
+#main-nav ul li a:hover {
+    color: #de9400;
+}
+#main-content {
+    width: 800px;
+    margin: 30px auto;
+    padding: 30px;
+}
+#top-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+#main-content h1 {
+    font-size: 56px;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-bottom: 30px;
+    padding-top: 0px;
+    font-weight: 500; 
+}
+#main-content h2 {
+    font-size: 24px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-weight: 500; 
+}
+#main-content h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-weight: 500;  
+}
+#main-content p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+#main-content ul,
+#main-content ol {
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+#feature-image {
+    width: 400px;
+    display: block;
+    margin: 20px auto;
+}
+#site-footer {
+    background-color: #86c7e5;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 10px;
+}
